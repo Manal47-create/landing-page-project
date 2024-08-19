@@ -40,14 +40,15 @@ a {
     padding: 20px 140px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding-right: 400px;
     
 
 
 }
 
 .textsection{
-    width: 30px;
+    width: 400px;
 }
 
 h1 {
@@ -89,6 +90,7 @@ h1 {
 .image-container {
     display: flex;
     gap: 52px;
+    
   
   }
 
@@ -107,18 +109,51 @@ img {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    padding: 50px 200px;
+    margin: 0;
+    margin-top: 100px;
+    
+}
+
+.writer {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
 
 .calltoaction {
     display: flex;
     /*flex-direction: column;*/
+    background-color: #3882F6;
+    padding: 20px 140px;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    gap: 32px;
+    border-radius: 10px;
+    margin-top: 40px;
+    
 
+}
+
+.Signup2 {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 0;
+    border-color: white;
+    height: 30px;
+    margin-top: 30px;
+    
 }
 
 .footer{
     background-color:#1F2937;
     display: flex;
     flex-direction: column;
-    
-    
+    width: 100%;
+    align-items: center;
+    color: white;
+    padding: 40px;
 }
